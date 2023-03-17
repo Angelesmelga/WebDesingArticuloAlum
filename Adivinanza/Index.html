@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de adivinanzas</title>
+    <style>
+        html{
+            font-family: sans-serif;
+            background-color: #FFA07A;
+        }
+        body{
+            width: 600px;
+            margin: 0 auto;
+            background-color: palevioletred;
+            padding: 0 20px 20px 20px;
+            border: 5px solid white;
+}
+        
+        .form input[type="number"] {
+            width: 200px;
+        }
+        .ultimoResult{
+            color: orange;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+<h1>¡Adivina el numero!!</h1>
+<style>h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+  }
+  </style>
+  <div class="Intentos">
+    <div id="display-resultado" style="height: 20px;"></div>
+   </div>
+
+<p>HA GENERADO UN NUMERO ALEATORIO EN EL RANGO DE 1 A 100.¡ADIVINA EL NUMERO TIENES 10 OPORTUNIDADES!!</p> 
+<div class="form">
+    <label for="campo_num">Ingresa el numero: </label>
+    <input type="number" min="1" max="100" required id="campo_num" class="campo_num">
+    <input type="submit" value="PROBAR NUMERO!" class="btn_probar_num"> 
+</div>
+<style>p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow: 4px 4px 2px  black;
+}
+  </style> 
+
+<div class="div_result">
+    <p class="num_ingresados"></p>
+    <p class="ultimoResult"></p>
+    <p class="pistas"></p>
+</div>
+
+</body>
+<script src="script/main.js"></script>
+</html>
