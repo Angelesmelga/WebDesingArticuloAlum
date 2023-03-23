@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UICSLP CAMPUS TAMUIN</title>
+<link href="estilos/estilos.css" rel="stylesheet">
+</head>
+<body> 
+    <h1>FORMULARIO DE PREINSCRIPCION</h1>
+    <div id="display-resultado" style="height: 20px;"></div>
+</div>
+    <main id="contenido">
+    <form class="form-ficha">
+    <div class="campo"> 
+        <label class="campo_eti" for="nombre">Nombre:</label>
+       <input class="campo_text" type="text" placeholder="Nombre completo" id="nombre">
+    </div>    
+<br>
+     <div class="campo">
+        <label class="campo_eti" for="CURP">CURP: </label>
+        <input class="campo_text" type="text" placeholder="CURP" id="curp">
+    </div>
+    <br>
+    <div class="campo">
+        <label class="campo_eti" for="esc_proced">Escuela de procedencia: </label>
+        <select class="campo_select" id="escuelas">
+        
+        <option>Colegio de bachilleres plantel N°22, Tamuín</option>
+        <option>CBTA 121, Tamuín</option>
+        <option>Emsad 17, Tamuín, Nuevo Aquismón</option>
+        <option>Sor Juana Ines De La Cruz, Tamuín, Santa Elena</option>
+        <option>Guadalupe Victoria, Tamuín, Nuevo Tampaón</option>
+        <option>CBTA 325, Tamuín, Santa Martha</option>
+        <option>Emsad 29. Tamuín, El Carrizo</option>
+        <option>Jesús Silva Herzog, San Vicente Tancuayalab</option>
+        <option>Leopoldo zuñiga, San Vicente Tancuayalab</option>
+        <option>Cobach 16, San Vicente Tancuayalab</option>
+        <option>Preparatoria, Ébano</option>
+        <option>Colegio De Bachilleres Plantel N°15, Ébano</option>
+        <option>Francisco Marquez, Ébano Pujal Coy</option>
+        <option>Gabino Barreda, Ébano Aurelio Manrique</option>
+        <option>Simbolos Patrios, Ébano Plan De Iguala</option>
+        <option>Cecyte Plantel N°5, Ébano</option>
+        <option>Cecyte Plantel N°4, Ébano Ponciano Arriaga</option>
+        </select>
+        </div>
+        <br>
+     <div class="campo">
+        <label class="campo_eti" for="Promedio">Promedio: </label>
+        <input class="campo_text" type="text" placeholder="Promedio" id="promedio">
+        </div>
+            <div class="campo">
+                <label class="campo_eti" for="carrera">Selecciona carrera:</label> 
+                <select class="campo_select" id="carreras">
+                
+                <option>Licenciatura en Derecho</option>
+                <option>Licenciatura en Ingenieria Industrial</option>
+                <option>Licenciatura en Informática Administrativa</option>
+                
+                </select>
+                </div>
+                <div class="campo">
+                    <label class="campo_eti" for="telefono">Número de teléfono: </label> 
+                    <input class="campo_text" type="tel" placeholder="Número de teléfono" id="telefono">
+                </div>
+                <div class="campo">
+                    <label class="campo_eti" for="correo">Correo electronico</label> 
+                    <input class="campo_text" type="email" placeholder="Correo electrónico" id="correo">
+                </div>
+                <div>
+                    <br>
+                  <input type="submit" value="Generar Ficha" class="boton-enviar">
+                </div>
+            </form>
+           
+              
+        </main>
+        <script src="script/main.js"></script>
+    </body>
+    </html>
